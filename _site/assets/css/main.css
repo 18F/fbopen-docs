@@ -27,6 +27,7 @@ body {
     font-weight: 400;
     font-style: normal;
     line-height: 1.466666667;
+    background-color: #F2F2F2;
 }
 
 hr {
@@ -34,9 +35,9 @@ hr {
     border: 0;
     background: rgba(133,133,133,.10);
     /*
-    background-image: -webkit-linear-gradient(left, #ccc, #333, #ccc); 
-    background-image: -moz-linear-gradient(left, #ccc, #333, #ccc); 
-    background-image: -ms-linear-gradient(left, #ccc, #333, #ccc); 
+    background-image: -webkit-linear-gradient(left, #ccc, #333, #ccc);
+    background-image: -moz-linear-gradient(left, #ccc, #333, #ccc);
+    background-image: -ms-linear-gradient(left, #ccc, #333, #ccc);
     background-image: -o-linear-gradient(left, #ccc, #333, #ccc); */
 }
 
@@ -156,32 +157,32 @@ a {
 a,
 a:link,
 a:visited {
-    color: #5fa544;
-    border-bottom: 1px dotted #5fa544;
-    text-decoration: none; 
+    color: #01ABCA; /* FBOPen Blue */
+    border-bottom: 1px dotted #01ABCA;
+    text-decoration: none;
 }
 
 a:hover {
-    border-bottom: 1px solid #ce9f13;
-    color: #ce9f13; 
+    border-bottom: 1px solid #2a6496;
+    color: #2a6496;
     text-decoration: none;
 }
 
 a:active {
-    border-bottom: 1px solid #5fa544; 
-    color: #5fa544; 
+    border-bottom: 1px solid #01ABCA;
+    color: #01ABCA;
     text-decoration: none;
 }
 
 a:focus {
-    border-bottom: 1px solid #ce9f13; 
-    color: #ce9f13; 
-    outline: thin dotted; 
+    border-bottom: 1px solid #2a6496;
+    color: #2a6496;
+    outline: thin dotted;
     text-decoration: none;
 }
 
 a.title-link {
-    color: #ce9f13; /* DOI gold */
+    color: #2a6496; /* FBOpen Dark Blue */
     border-bottom: none;
 }
 
@@ -193,7 +194,7 @@ a.title-link:focus {
 }
 
 a.skip-link {
-    color: #5fa544;
+    color: #01ABCA;
     border-bottom: none;
     padding: .25em;
 }
@@ -201,7 +202,7 @@ a.skip-link {
 a.skip-link:hover,
 a.skip-link:active,
 a.skip-link:focus {
-    background-color: #5fa544;
+    background-color: #01ABCA;
     color: #fff;
     border-bottom: none;
 }
@@ -229,12 +230,12 @@ nav a:visited {
 nav ul {
     margin: 0;
     padding: 0;
-    border-top: 1px solid #b1cca7; /* DOI mid green */
+    border-top: 1px solid #2a6496; /* DOI mid green */
 }
 
 nav li {
     list-style: none;
-    border-bottom: 1px solid #b1cca7;
+    border-bottom: 1px solid #2a6496;
 }
 
 
@@ -245,10 +246,10 @@ Layout
 
 /* offset the fixed position header for jump links */
 section:before {
-    display: block; 
-    content: ""; 
-    height: 60px; 
-    margin: -60px 0 0; 
+    display: block;
+    content: "";
+    height: 60px;
+    margin: -60px 0 0;
 }
 
 .wrap {
@@ -259,9 +260,9 @@ section:before {
 
 header {
     width: 100%;
-    border-top: 8px solid #8eb57f; /* DOI green */
+    border-top: 8px solid #EA461F; /* FBOpen Red */
     border-bottom: 1px solid rgba(133,133,133,.10);
-    background-color: #fff;
+    background-color: #F2F2F2;
     position: fixed;
     top: 0;
     z-index: 99999;
@@ -272,6 +273,18 @@ header {
     margin-top: 80px;
 }
 
+.brand a {
+    display: inline-block;
+    background: url('../img/fbopen-logo.png') no-repeat 0 1px;
+    width: 174px;
+    height: 48px;
+    margin: 0;
+}
+.brand a:hover {
+    background-position: left bottom; /* 0% 100%; */
+    opacity: .95;
+
+}
 
 /*
 Helpers
@@ -342,7 +355,7 @@ li h4 {
 .license {
     font-family: "Avenir Next Demi", Arial, sans-serif;
     font-weight: normal;
-    font-style: normal; 
+    font-style: normal;
 }
 
 .highlight {
@@ -481,9 +494,9 @@ Desktop Styles
     */
 
     nav a:hover {
-        color: #ce9f13;
+        color: #EA461F;
         border-bottom: none;
-        background-color: #d8e6d3; /* DOI light green */
+        background-color: #01abca;
         padding-left: 10px;
     }
 
@@ -533,7 +546,7 @@ Desktop Styles
 }
 
 @media screen and (max-width: 54.375em) and (min-height: 32.5em) {
-    
+
     /* keep the repo list containers the same height, but account for the need for more height */
 
     .repo-list li {

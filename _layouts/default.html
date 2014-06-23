@@ -24,7 +24,11 @@
         {% if site.data.meta.logo_url != null %}
           <img class="logo" src="{{ site.baseurl }}{{ site.data.meta.logo_url }}" alt="{{ site.data.meta.logo_alt }}">
         {% endif %}
-        <h1><a class="title-link" href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
+        <h1 class="brand">
+            <a class="title-link" href="{{ site.baseurl }}/"> <!--check on title link - might remove -->
+              <span class="visuallyhidden">fbopen</span>
+            </a>
+        </h1>
       </div>
       </header>
 
@@ -35,8 +39,8 @@
         <section id="main" class="main-content" role="main">
           {{ content }}
         </section>
-        
-        
+
+
         <footer role="contentinfo">
           <p>Placeholder for data disclaimer.</p>
           <p><a href="mailto:lin_zhang@ios.doi.gov?Subject=Contact%20from%20DOI%20data%20hub">Contact Us</a></p>
