@@ -1,0 +1,21 @@
+# 
+# This is the main data file for your project.  Change the values
+# below accordingly.
+# See http://yaml.org for details about YAML
+#
+org_name:  U.S. Department of the Interior
+org_abbrev: DOI
+address:
+ street: 1849 C St NW
+ suite: 
+ city: Washington
+ state: D.C.
+ zip: 20240
+point_of_contact: Michelle Hertzfeld
+# A valid HREF--email, form, etc.
+poc_link: mailto:michelle.hertzfeld@onrr.gov
+sponsoring_office: Office of the Chief Information Officer
+logo_url: /assets/img/U_S__Department_of_the_Interior.gif
+logo_alt: "U.S. Department of the Interior"
+home_url: index.html
+
