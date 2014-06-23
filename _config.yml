@@ -12,8 +12,8 @@ subtitle: FBOpen helps small businesses search for opportunities to work with th
 # For user/organization pages set this to an empty string
 # When working locally use jekyll serve --baseurl '' so that you can view everything at localhost:4000
 # See http://jekyllrb.com/docs/github-pages/ for more info
-baseurl: ''
-#baseurl: '/fbopen-docs'
+# baseurl: ''
+baseurl: '/fbopen-docs'
 
 # Author/Organization info to be displayed in the templates
 author:
