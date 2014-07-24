@@ -1,16 +1,10 @@
-# Department of the Interior Data Hub
+# FBOpen Docs
 
-This is the code repository for the Department of the Interior's Data Hub.
-
-<img src="https://raw.githubusercontent.com/usinterior/doi-data-hub/gh-pages/assets/img/screenshot.png">
-
-### Haven't I seen something like this before?
-
-This project is based on the [GSA Open Data Program Template](https://github.com/GSA/open-data-program-template), which is a set of templates and artifacts intended to help organizations bootstrap an open source program.
+This is a staging repo for larger FBOpen docs site. Hat tip: this is forked from [@usinterior](https://github.com/usinterior).
 
 ### Forking and contributing
 
-You are more than welcome to contribute to this project, or fork this project and use it to build something else. Also feel free to open [issues](https://github.com/usinterior/doi-data-hub/issues) for suggestions or problems with the DOI Data Hub website. For suggestions or problems with DOI data, data products and data services generally, please use our [data feedback Ideascale site](http://usinterior.ideascale.com/a/ideafactory.do?id=26901&mode=top&discussionFilter=active.ideation).
+You are more than welcome to contribute to this project, or fork this project and use it to build something else. Also feel free to open [issues](https://github.com/18f/fbopen-docs/issues) for suggestions or bugs.
 
 #### How to contribute:
 
