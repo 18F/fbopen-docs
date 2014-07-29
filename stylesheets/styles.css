@@ -33,14 +33,14 @@ h3, h4, h5, h6 {
 }
 
 a {
-  color:#428bca;
+  color:#01abca;
   font-weight:400;
   text-decoration:none;
 }
 
 a:hover,
 a:focus {
-  color: #2a6496;
+  color: #428bca;
   text-decoration: none;
 }
 
