@@ -26,4 +26,4 @@ We have used this approach, which we named Beckley, as a model for [other projec
 
 ### We Welcome Your Feedback
 
-Please reach out to us with your questions, ideas, concerns, etc. by emailing us at fbopen at gsa dot gov, on Twitter at [@fbopen](https://twitter.com/fbopen), or by creating a [GitHub issue](https://github.com/18f/fbopen/issues/new).
+Please reach out to us with your questions, ideas, concerns, etc. by emailing us at <a href="mailto:fbopen@gsa.gov">fbopen@gsa.gov</a>, on Twitter at [@fbopen](https://twitter.com/fbopen), or by creating a [GitHub issue](https://github.com/18f/fbopen/issues/new). We are very interested in your feedback about FBOpen AND FedBizOpps.
