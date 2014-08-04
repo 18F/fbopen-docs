@@ -5,10 +5,11 @@ published: true
 
 ### Data Sources in FBOpen
 
-* [FedBizOpps](http://fbo.gov): In addition to indexing the basic FedBizOpps data, we also index the attachments associated with FedBizOpps opportunities (which fbo.gov does not). According to the Federal A
-* [Grants.gov](http://www.grants.gov):
+* [FedBizOpps](http://fbo.gov)
+* [Grants.gov](http://www.grants.gov)
 
 Coming soon...
+
 * SBIR
 * State Department BIDS data
 
