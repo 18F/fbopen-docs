@@ -16,25 +16,24 @@ FBOpen’s mission is to help small businesses search for opportunities to work 
 
 **Required Core Metadata Fields**
 
-The data should include the following core metadata fields, or you should provide documentation explaining which fields map to these core fields. All other data will be placed in a nested key specific to the data source.
+The data should include the following core metadata fields, or you should provide documentation explaining which fields in your data map to these. All other data will be placed in a nested key specific to the data source.
 
-* "data_source":  -- the source of this opportunity --
-* "title": the opportunity’s title
-* "listing_url": as described above, the link to the listing-of-record for this opportunity
-* "close_dt": "2013-12-01T17:00:00Z", date/time when applications are due (month precedes day)
-* "posted_dt": "2013-11-06T00:00:00Z", date/time when this opportunity was made public (month precedes day)
-* "open_dt": "2013-11-09T00:00:00Z", first date/time when applications may be submitted
-* "agency": "General Services Administration",
-* "office": "Presidential Innovation Fellows",
-* "location": "1800 F Street, Washington, DC",
-* "zipcode": "20008",
-* "summary": "A short executive summary of the opportunity goes here.",
-* "description": "More details about the opportunity might be included here",
+* `title`: the opportunity’s title
+* `listing_url`: as described above, the link to the listing-of-record for this opportunity
+* `close_dt`: "2013-12-01T17:00:00Z", date/time when applications are due (month precedes day)
+* `posted_dt`: "2013-11-06T00:00:00Z", date/time when this opportunity was made public (month precedes day), (optional if `open_dt` is present)
+* `open_dt`: "2013-11-09T00:00:00Z", first date/time when applications may be submitted (month precedes day), (optional if `posted_dt` is present)
+* `agency`: "General Services Administration"
+* `office`: "Presidential Innovation Fellows", (optional)
+* `location`: "1800 F Street, Washington, DC", (optional)
+* `zipcode`: "20008", (optional)
+* `summary`: "A short executive summary of the opportunity goes here.", (optional)
+* `description`: "More details about the opportunity might be included here",
 
-We also welcome suggestions of resources available on the web that we could scrape, but we need to access the resources without special registration or IP blocking.
+We also welcome suggestions of resources available on the web that we could scrape, but we need to access the resources without special registration or IP whitelisting.
 
 _Notes of possible additional info to include: working full query example on all their DSL pages//
-query domain specific languages, outlines the syntax for outlining their queries//
+query domain specific languages, outlines the syntax for constructing their queries//
 each type of query and field has its own page//
 way to structure filters together is implied//
 don’t explain when things are shortcuts//
