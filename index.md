@@ -5,7 +5,7 @@ published: true
 
 ### Welcome to FBOpen Docs
 
-FBOpen is a search API of opportunities to work with the U.S. government
+FBOpen is a search API of opportunities to work with the U.S. government.
 
 * Our API documentation is at [18f.github.io/fbopen](https://18f.github.io/fbopen/).
 * Visit the demo website: [fbopen.gsa.gov](https://fbopen.gsa.gov).
