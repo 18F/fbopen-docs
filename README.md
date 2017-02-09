@@ -1,4 +1,10 @@
-# FBOpen Docs
+
+
+# This project has been deprecated and is no longer supported.  The API itself will be turned off should no longer be used and will be turned off soon.  
+
+======================================
+
+
 
 This is a staging repo for larger FBOpen docs site.
 
